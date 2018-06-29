@@ -1,0 +1,28 @@
+{
+	"name": "konservs/brilliant.content",
+	"description": "Content package for news, blog posts and other categorized content for Brilliant Framework",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": ["content", "brilliant"],
+	"homepage": "https://github.com/konservs/brilliant.content",
+	"license": "MIT",
+	"authors": [
+		{
+		"name": "Andrii Biriev",
+		"email": "andrii.biriev@gmail.com",
+		"homepage": "https://konservs.com",
+		"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "andrii.biriev@gmail.com"
+	},
+	"require": {
+		"konservs/brilliant.framework": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brilliant\\Content\\": "libraries/Content"
+		}
+	}
+}
