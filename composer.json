@@ -6,6 +6,7 @@
 	"keywords": ["content", "brilliant"],
 	"homepage": "https://github.com/konservs/brilliant.content",
 	"license": "MIT",
+	"minimum-stability": "dev",
 	"authors": [
 		{
 		"name": "Andrii Biriev",
@@ -24,5 +25,13 @@
 		"psr-4": {
 			"Brilliant\\Content\\": "libraries/Content"
 		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php bin/PostInstall.php"
+		],
+		"post-update-cmd": [
+			"php bin/PostUpdate.php"
+		]
 	}
 }
